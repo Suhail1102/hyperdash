@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.hero{
+  background-image: url('./assets/Hero Image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.features1::before{
+   content: "Air X";
+   position: absolute;
+   font-size: 3rem;
+   top: -2.5rem;
+   left: 3rem
+}
+.features1::After{
+   content: "Accelerate into a New Era";
+   position: absolute;
+   font-size: 3rem;
+   bottom:-4rem;
+   left: 2rem
+}
