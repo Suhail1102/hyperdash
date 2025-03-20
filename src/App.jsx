@@ -10,6 +10,7 @@ import Features3 from './components/Features3'
 import AirX from './components/AirX'
 import NumericalSpecs from './components/NumericalSpecs'
 import Features4 from './components/Features4'
+import OurStory from './components/OurStory'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
 <AirX/>
 <NumericalSpecs/>
 <Features4/>
+<OurStory/>
 
     </>
   )

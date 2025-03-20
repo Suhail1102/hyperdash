@@ -17,7 +17,7 @@ function Features4() {
     <div className='w-full h-full bg-[#1A1A1A] text-white'>
 
         {/* section1 */}
-        <div className='container min-h-screen w-[68vw] flex justify-between gap-y-5 items-center flex-wrap ' style={{margin:"auto"}}>
+        <div className=' min-h-screen container w-[80vw] flex justify-between gap-y-7 items-center flex-wrap overflow-hidden ' style={{margin:"auto" ,marginBottom:"10rem"}}>
         <div ><img className='w-full h-full' src={DesignImage} alt="" />
         <span className='text-center block text-xl' style={{paddingTop:"2rem"}}>Impeccable Design</span>
         </div>
@@ -44,23 +44,23 @@ function Features4() {
 
         {/* section-2 */}
 
-        <section className='h-full w-full'style={{marginTop:" 10rem"}}>
-            <div className='container grid grid-cols-3  h-full w-[68vw] gap-y-10 ' style={{margin:" auto" , paddingRight:"5rem"}}>
-               <img className='col-span-1 ' src={img1} alt="" />
-               <img className='col-span-1 ' src={img2} alt="" />
-               <img className='h-full w-full row-span-2 object-cover' src={imageRight} alt="" />
-               <img className=' ' src={img3} alt="" />
-               <img className=' ' src={img4} alt="" />
+        <section className='h-full container  w-full 'style={{margin:"10rem auto"}}>
+            <div className=' grid grid-cols-3  h-full md:w-[80vw] gap-x-1 gap-y-5' style={{margin:" auto" , paddingRight:"5rem"}}>
+               <img className='col-span-1 w-3/4' src={img1} alt="" />
+               <img className='col-span-1 w-3/4' src={img2} alt="" />
+               <img className='h-full w-full row-span-2  object-cover' src={imageRight} alt="" />
+               <img className=' w-3/4' src={img3} alt="" />
+               <img className='w-3/4 ' src={img4} alt="" />
                 </div>
         </section>
 
 
         {/* section 3 */}
         
-        <section className='min-h-screen w-full sec-air text-white relative'>
+        <section className='h-[100vh] w-full sec-air relative text-white '>
         
-        <div className='container h-full w-full absolute'>
-            <div className=' container  absolute bottom-48   left-72'>
+        <div className='  container flex h-[100vh] items-end justify-start ' style={{margin:"auto"}}>
+            <div className=' 'style={{paddingLeft:"8rem" , paddingBottom:"5rem"}}  >
                 <h2 className='text-6xl' style={{margin:"2rem 0"}} >Air X</h2>
                 <h3 className='text-3xl' style={{margin:"2rem 0"}}>Accelerate into a New Era</h3>
                 <div className='flex justify-start gap-10 items-center' style={{margin:"2rem 0"}}>
@@ -74,10 +74,8 @@ function Features4() {
 
         </section>
 
-        <section className='min-h-screen w-full'>
-          
-        </section>
 
+        
     </div>
   )
 }

@@ -4,8 +4,8 @@ import Feature3 from '../assets/Features 2.3 img.png'
 function Features3() {
   return (
     <>
-    <div className='max-h-[899px] overflow-hidden  w-full bg-white  '>
-        <div className='w-[50rem] h-full  relative top-80 z-1 left-72'>
+    <div className='max-h-[899px]  w-full bg-white  '>
+        <div className='w-[50rem] h-full  relative top-72  left-40'>
         <h2 className='text-6xl' style={{marginBottom:"2rem"}}>Air X</h2>
 
       <h3 className='text-4xl tracking-wider font-bold'style={{marginBottom:"3rem"}}> Accelerate into a New Era</h3>
@@ -17,7 +17,7 @@ function Features3() {
 </div>
         </div>
 
-        <div className='h-[580px] w-full bg-black mx-auto  flex justify-center items-center'>
+        <div className='h-[580px] w-full  mx-auto  flex justify-center items-center'>
             <img className='w-full h-full object-cover' src={Feature3} alt="" />
         </div>
 
