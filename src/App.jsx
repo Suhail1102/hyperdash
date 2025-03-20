@@ -7,6 +7,9 @@ import Navbar from './components/Navbar'
 import Features from './components/Features'
 import Features2 from './components/Features2'
 import Features3 from './components/Features3'
+import AirX from './components/AirX'
+import NumericalSpecs from './components/NumericalSpecs'
+import Features4 from './components/Features4'
 
 function App() {
 
@@ -16,6 +19,10 @@ function App() {
 <Features/>
 <Features2/>
 <Features3/>
+<AirX/>
+<NumericalSpecs/>
+<Features4/>
+
     </>
   )
 }

@@ -28,3 +28,17 @@
    bottom:-4rem;
    left: 2rem
 }
+
+.airx{
+  background-image: url('./assets/AirX.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sec-air{
+  margin: 10rem 0 ;
+  background-image: url('./assets/Air X Img2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
