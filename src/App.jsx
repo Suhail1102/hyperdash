@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-    <div className='max-w-[1440px] w-[1440px]  max-h[8629px]' style={{margin:"auto"}}>
+    <div className=' max-w-[1440px]   max-h-[8629px] ' style={{margin:"auto"}}>
 <HeroSection/>
 <Features/>
 <Features2/>

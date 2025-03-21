@@ -7,8 +7,8 @@ function HeroSection() {
         <div className='md:min-h-screen min-h-96 hero w-full text-white relative '>
     <Navbar/>
 
-    <div>
-        <button className='w-[90px] h-[32px] border  absolute top-[650px] left-[580px] cursor-pointer'>Test Drive</button>
+    <div className='absolute top-[650px] left-[50%] '>
+        <button className='w-[90px] h-[32px] border  cursor-pointer'>Test Drive</button>
     </div>
     </div>
     </>
