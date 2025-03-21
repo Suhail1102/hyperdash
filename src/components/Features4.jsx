@@ -14,27 +14,37 @@ import AirImg2 from '../assets/Air X Img2.png'
 
 function Features4() {
   return (
-    <div className='w-full h-full bg-[#1A1A1A] text-white'>
+    <div className='w-full h-[2423px] max-h-[2423px]  bg-[#1A1A1A] text-white'>
 
         {/* section1 */}
-        <div className=' min-h-screen container w-[80vw] flex justify-between gap-y-7 items-center flex-wrap overflow-hidden ' style={{margin:"auto" ,marginBottom:"10rem"}}>
-        <div ><img className='w-full h-full' src={DesignImage} alt="" />
-        <span className='text-center block text-xl' style={{paddingTop:"2rem"}}>Impeccable Design</span>
+        <div className=' h-[901px] max-w-[1182px] flex justify-between gap-y-14  flex-wrap  ' style={{margin:"auto"}}>
+        <div className='max-w-[328.43px] h-[352.24px] max-h-[352.24px]  flex flex-col justify-between' >
+            <img className='w-full h-[286px] object-contain object-top' src={DesignImage} alt="" />
+        <span className='text-center block text-[24px] ' >Impeccable Design</span>
         </div>
 
-        <div><img src={PerformanceImg} alt="" />
-        <span className='text-center block text-xl' style={{paddingTop:"2rem"}}>Elevated Performance</span>
+        <div className='w-[328.43px] h-[352.24px] max-h-[352.24px] flex flex-col justify-between'>
+            <img className='w-full h-[286px] object-contain object-top' src={PerformanceImg} alt="" />
+        <span className='text-center block text-[24px]'>Elevated Performance</span>
         </div>
-        <div><img src={InteriorImg} alt="" />
+
+
+        <div className='w-[328.43px] h-[352.24px] max-h-[352.24px] flex flex-col justify-between'>
+            <img className='w-full h-[286px] object-contain object-top' src={InteriorImg} alt="" />
         
-        <span className='text-center block text-xl' style={{paddingTop:"2rem"}}>Great interiors</span>
+        <span className='text-center block text-[24px]'>Great interiors</span>
         </div>
-        <div><img src={sustainable} alt="" /></div>
-        <div>
-            <img src={AirImage} alt="" />
-            <div style={{marginTop:"2rem"}}>
-                <h2 className='text-2xl'>Drive to a sustainable future</h2>
-                <span className='font-extralight text-base block w-3/4' style={{marginTop:"2rem" , paddingBottom:"3rem"}} >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </span>
+
+
+        <div className='max-w-[472px] max-h-[472px]  '>
+            <img className=' object-contain ' src={sustainable} alt="" />
+            </div>
+
+        <div className='w-[589px]  flex flex-col gap-5'>
+            <img className='w-full h-[270px] object-cover ' src={AirImage} alt="" />
+            <div className='flex flex-col gap-5'>
+                <h2 className='text-[27px] '>Drive to a sustainable future</h2>
+                <span className='text-[18px] block ' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </span>
 
             </div>    
        
@@ -44,28 +54,28 @@ function Features4() {
 
         {/* section-2 */}
 
-        <section className='h-full container  w-full 'style={{margin:"10rem auto"}}>
-            <div className=' grid grid-cols-3  h-full md:w-[80vw] gap-x-1 gap-y-5' style={{margin:" auto" , paddingRight:"5rem"}}>
-               <img className='col-span-1 w-3/4' src={img1} alt="" />
-               <img className='col-span-1 w-3/4' src={img2} alt="" />
-               <img className='h-full w-full row-span-2  object-cover' src={imageRight} alt="" />
-               <img className=' w-3/4' src={img3} alt="" />
-               <img className='w-3/4 ' src={img4} alt="" />
+        <section className='max-h-[550px] h-[550px] w-[1149px] max-w-[1149px]'style={{ margin:" 8rem auto", marginTop:" 10rem"}}>
+            <div className=' grid grid-cols-3  h-full w-full justify-items-start gap-y-5 ' style={{margin:" auto" }}>
+               <img className='col-span-1 h-[256px] w-[257px]' src={img1} alt="" />
+               <img className='col-span-1 h-[256px] w-[257px]' src={img2} alt="" />
+               <img className='h-[550px] w-[443px] row-span-2 object-cover' src={imageRight} alt="" />
+               <img className=' h-[256px] w-[257px]' src={img3} alt="" />
+               <img className=' h-[256px] w-[257px]' src={img4} alt="" />
                 </div>
         </section>
 
 
         {/* section 3 */}
         
-        <section className='h-[100vh] w-full sec-air relative text-white '>
+        <section className='h-[633px] w-full sec-air text-white relative'>
         
-        <div className='  container flex h-[100vh] items-end justify-start ' style={{margin:"auto"}}>
-            <div className=' 'style={{paddingLeft:"8rem" , paddingBottom:"5rem"}}  >
-                <h2 className='text-6xl' style={{margin:"2rem 0"}} >Air X</h2>
-                <h3 className='text-3xl' style={{margin:"2rem 0"}}>Accelerate into a New Era</h3>
+        <div className='h-full w-full absolute'>
+            <div className=' absolute top-[250px]   left-[134px]'>
+                <h2 className='text-[48px]' style={{margin:"2rem 0"}} >Air X</h2>
+                <h3 className='text-[27px]' style={{margin:"2rem 0"}}>Accelerate into a New Era</h3>
                 <div className='flex justify-start gap-10 items-center' style={{margin:"2rem 0"}}>
-                    <button className='bg-white text-xl text-black' style={{padding:"1rem 2rem"}}>Order Now</button>
-                    <a href=""className='text-xl' >Learn More</a>
+                    <button className='bg-white  text-black cursor-pointer text-[18px] h-[57px] w-[171px]'>Order Now</button>
+                    <a href=""className='text-[18px]' >Learn More</a>
                 </div>
 
             </div>
@@ -74,8 +84,6 @@ function Features4() {
 
         </section>
 
-
-        
     </div>
   )
 }

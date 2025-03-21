@@ -4,19 +4,19 @@ import AirXimg from '../assets/AirX.png'
 function AirX() {
     return (
         <>
-            <div className='min-h-screen w-full flex justify-end items-center airx text-white'>
+            <div className='max-h-[926px] h-[926px] w-full flex justify-end items-center airx text-white'>
 
                 {/* airx specification */}
-                <div className='w-[40%] h-full ' >
-                    <h2 className='text-3xl text-start' style={{ marginBottom: "3rem" }}>Model Air X Specifications</h2>
+                <div className='w-[40%] h-1/2 ' >
+                    <h2 className='text-[22.83px] text-start' style={{ marginBottom: "2.5rem" }}>Model Air X Specifications</h2>
 
 
                     {/* 1row */}
 
-                    <div className='w-full h-full flex justify-start gap-40 font-extralight'>
+                    <div className='w-full h-full flex justify-start gap-40 '>
 
                         {/* col-1 */}
-                        <div className='text-lg font-extralight'>
+                        <div className='text-[16px]'>
 
                             <div className='' style={{ margin: "2rem 0" }}>
                                 <span className='flex flex-col'>Range (EPA est.)</span>
@@ -42,7 +42,7 @@ function AirX() {
 
                         {/* col2 */}
 
-                        <div className='text-lg font-extralight'>
+                        <div className='text-[16px]'>
                             <div className='' style={{ margin: "2rem 0" }}>
                                 <span className='flex flex-col'>Acceleration</span>
                                 <span>4.5s 0-60 mph</span>

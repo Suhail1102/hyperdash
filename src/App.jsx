@@ -11,11 +11,13 @@ import AirX from './components/AirX'
 import NumericalSpecs from './components/NumericalSpecs'
 import Features4 from './components/Features4'
 import OurStory from './components/OurStory'
+import Footer from './components/Footer'
 
 function App() {
 
   return (
     <>
+    <div className='max-w-[1440px] w-[1440px]  max-h[8629px]' style={{margin:"auto"}}>
 <HeroSection/>
 <Features/>
 <Features2/>
@@ -24,6 +26,8 @@ function App() {
 <NumericalSpecs/>
 <Features4/>
 <OurStory/>
+<Footer/>
+</div>
 
     </>
   )

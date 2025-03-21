@@ -9,34 +9,34 @@ import story4 from '../assets/story 4 Img.png'
 export default function OurStory() {
   return (
     <>
-    <div className='min-h-screen  w-full bg-[#1A1A1A] text-[#FFFFFB]'>
+    <div className='h-[8104px] max-h-[810px] overflow-hidden w-full bg-[#1A1A1A] text-[#FFFFFB]'>
 
-          <div className='container w-full flex justify-between items-baseline' style={{margin:"auto", padding: "9rem 8rem 3rem 8rem"}}>
+          <div className='w-full flex justify-between items-baseline' style={{margin:"auto", padding: "0rem 0 3rem 8rem"}}>
              <span className='text-[36px]'>Our Stories</span>
-             <div className='flex gap-10 items-center'>
-                <img className='h-full w-full' src={leftarrow} alt="" />
-                <img className='h-full w-full' src={rightarrow} alt="" />
+             <div className='flex w-[138px] h-[38px] items-center gap-[43px] 'style={{marginRight:"3rem"}} >
+                <img className='h-[48px] w-[48px]' src={leftarrow} alt="" />
+                <img className='h-[48px] w-[48px]' src={rightarrow} alt="" />
              </div>
           </div>
 
-          <div className='h-full flex flex-nowrap overflow-x-hidden justify-between  w-full gap-x-32'style={{ padding: "2rem 0 2rem 10rem"}}>
+          <div className='h-full w-full  flex flex-nowrap overflow-x-hidden justify-between   gap-x-[20px]' style={{paddingLeft:"134px"}}>
              <div className='min-w-[318px] h-[457px] flex flex-col gap-[20px]'>
-                <img className='h-full w-full object-contain' src={story1} alt="" />
+                <img className='h-[330px] w-full object-fill ' src={story1} alt="" />
                 <span className='text-[18px]'>Lorem Ipsum</span>
                 <p className='h-full w-full text-start text-[13.5px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
              </div>
              <div className='min-w-[318px] h-[457px] flex flex-col gap-[20px]'>
-                <img className='h-full w-full object-contain' src={story2} alt="" />
+                <img className='h-[330px] w-full object-contain' src={story2} alt="" />
                 <span className='text-[18px]'>Lorem Ipsum</span>
                 <p className='h-full w-full text-start text-[13.5px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
              </div>
              <div className='min-w-[318px] h-[457px] flex flex-col gap-[20px]'>
-                <img className=' h-full w-full object-contain' src={story3} alt="" />
+                <img className=' h-[330px] w-full object-contain' src={story3} alt="" />
                 <span className='text-[18px]'>Lorem Ipsum</span>
                 <p className='h-full w-full text-start text-[13.5px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
              </div>
              <div className='min-w-[318px] h-[457px] flex flex-col gap-[20px]'>
-                <img className='h-82 w-full object-contain object-left' src={story4} alt="" />
+                <img className='h-[330px] w-full object-cover object-left-top' src={story4} alt="" />
                 <span className='text-[18px]'>Lorem Ipsum</span>
                 <p className='h-full w-full text-start text-[13.5px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
              </div>
