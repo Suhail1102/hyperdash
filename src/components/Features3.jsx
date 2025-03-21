@@ -1,5 +1,5 @@
 import React from 'react'
-import Feature3 from '../assets/Features 2.3 img.png'
+import Feature3 from '../assets/f22.png'
 
 function Features3() {
   return (

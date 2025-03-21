@@ -9,7 +9,7 @@ import img2 from '../assets/img2.png'
 import img3 from '../assets/img3.png'
 import img4 from '../assets/img4.png'
 import imageRight from '../assets/imgRightLarge.png'
-import AirImg2 from '../assets/Air X Img2.png'
+
 
 
 function Features4() {

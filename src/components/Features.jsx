@@ -1,5 +1,5 @@
 import React from 'react'
-import Features1 from '../assets/Features 2.1 video.png'
+import Features1 from '../assets/f21.png'
 
 export default function Features() {
   return (
