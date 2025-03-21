@@ -1,10 +1,10 @@
 import React from 'react'
 import leftarrow from '../assets/leftarrow.png'
 import rightarrow from '../assets/rightarrow.png'
-import story1 from '../assets/story 1 Img.png'
-import story2 from '../assets/story 2 Img.png'
-import story3 from '../assets/story 3 Img.png'
-import story4 from '../assets/story 4 Img.png'
+import story1 from '../assets/story1Img.png'
+import story2 from '../assets/story2Img.png'
+import story3 from '../assets/story3Img.png'
+import story4 from '../assets/story4Img.png'
 
 export default function OurStory() {
   return (

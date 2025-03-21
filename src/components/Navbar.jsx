@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Bars3Icon } from "@heroicons/react/24/solid";
-import Logo from '../assets/Primary Logo.png'
+import Logo from '../assets/PrimaryLogo.png'
 
 
 function Navbar() {
