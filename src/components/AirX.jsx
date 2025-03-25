@@ -4,7 +4,7 @@ import AirXimg from '../assets/AirX.png'
 function AirX() {
     return (
         <>
-            <div className='max-h-[926px] h-[926px] w-full flex justify-end items-center airx text-white'>
+            <div className='max-h-[926px] h-[926px] w-full flex justify-end items-center airx text-white overflow-hidden'>
 
                 {/* airx specification */}
                 <div className='w-[40%] h-1/2 ' >
